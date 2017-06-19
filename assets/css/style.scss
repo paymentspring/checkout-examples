@@ -1,0 +1,36 @@
+---
+---
+
+// these are not yet supported, but the color rules below should be replaced with these 
+// when https://github.com/pages-themes/cayman/compare/v0.0.4...master is merged
+$header-bg-color: #4EC0AF;
+$header-bg-color-secondary: #4EC0AF;
+$body-link-color: #4EC0AF;
+$section-headings-color: #4EC0AF;
+
+@import "{{ site.theme }}";
+body {
+  font-family: 'ProximaNovaA-Regular', sans-serif;
+}
+.main-content {
+  h1, h2, h3, h4 {
+    color: #4EC0AF;
+  }
+}
+a {
+  color: #4EC0AF;
+}
+body {
+  background-color: #F9F9F9;
+}
+.page-header {
+  background-image: linear-gradient(120deg, #59e0cc, #0f8e84);		
+  background-color: #4ec0af;
+  img {
+    width: 24rem;
+    max-width: 100%;
+  }
+}
+.button-wrapper {
+  max-width: 200px;
+ }
