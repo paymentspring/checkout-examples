@@ -11,6 +11,7 @@ $section-headings-color: #4EC0AF;
 @import "{{ site.theme }}";
 body {
   font-family: 'ProximaNovaA-Regular', sans-serif;
+  background-color: #F9F9F9;
 }
 .main-content {
   h1, h2, h3, h4 {
@@ -19,9 +20,6 @@ body {
 }
 a {
   color: #4EC0AF;
-}
-body {
-  background-color: #F9F9F9;
 }
 .page-header {
   background-image: linear-gradient(120deg, #59e0cc, #0f8e84);		
@@ -33,4 +31,4 @@ body {
 }
 .button-wrapper {
   max-width: 200px;
- }
+}
