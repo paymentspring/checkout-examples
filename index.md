@@ -24,7 +24,7 @@ dynamic amount:
 recurring checkbox:
 {% include checkout-buttons/checkbox.html %}
 
-static distribution:
+static distribution (with ach):
 {% include checkout-buttons/static-distribution.html %}
 
 dynamic distribution:
