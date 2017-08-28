@@ -15,7 +15,7 @@ Where `cb7eae32763131ade35f` is your form-id.
 
 ### Options
 
-static amount:
+static amount (with ach):
 {% include checkout-buttons/static-amount.html %}
 
 dynamic amount:
