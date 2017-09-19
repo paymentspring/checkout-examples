@@ -8,12 +8,7 @@ Each form is configurable with all the options found on our [button examples pag
 
 ### Example
 
-To include a form on your website, you will need to obtain a form-id. Then copy and paste a line of javascript into your site where you would like the form to appear.
-
-```markdown
-<script src="https://checkout.paymentspring.com/js/inline.js" formId="cb7eae32763131ade35f"></script>
-```
-Where `cb7eae32763131ade35f` is your form-id.
+{% include shared-copy/example-script-tag.html type="form" %}
 
 In addition to the javascript above, you will need to paste a link to our stylesheet (css) in the head of your site. If you plan to style the form, see styling below, please place this link before other css links.
 
