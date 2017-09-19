@@ -1,7 +1,7 @@
 ---
 ---
 
-// these are not yet supported, but the color rules below should be replaced with these 
+// these are not yet supported, but the color rules below should be replaced with these
 // when https://github.com/pages-themes/cayman/compare/v0.0.4...master is merged
 $header-bg-color: #4EC0AF;
 $header-bg-color-secondary: #4EC0AF;
@@ -22,7 +22,7 @@ a {
   color: #4EC0AF;
 }
 .page-header {
-  background-image: linear-gradient(120deg, #59e0cc, #0f8e84);		
+  background-image: linear-gradient(120deg, #59e0cc, #0f8e84);
   background-color: #4ec0af;
   img {
     width: 24rem;
@@ -31,4 +31,37 @@ a {
 }
 .button-wrapper {
   max-width: 200px;
+}
+
+.navigation {
+  font-size: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #F3755C;
+
+  .link-wrapper {
+    font-size: 14px;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+  }
+
+  a {
+    display: inline-block;
+    color: #FFF;
+    font-size: 1.6em;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 5px;
+
+    &.active {
+      background-color: #F15D3F;
+    }
+  }
+
+  a:hover {
+    text-decoration: none;
+    background-color: #F15D3F;
+  }
 }
