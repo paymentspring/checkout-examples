@@ -19,11 +19,9 @@ dynamic amount:
 recurring checkbox:
 {% include checkout-buttons/checkbox.html %}
 
-optional transaction fee:
+optional additional donation:
+(only available to charitable, social service, and religious organizations)
 {% include checkout-buttons/transaction_fee_optional.html %}
-
-required transaction fee:
-{% include checkout-buttons/transaction_fee_required.html %}
 
 static distribution:
 {% include checkout-buttons/static-distribution.html %}
