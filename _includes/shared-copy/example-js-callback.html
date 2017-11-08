@@ -1,0 +1,44 @@
+If you like, you can also specify a Javascript callback to fire upon a
+transaction being successfully submitted through your {{ include.type }}.
+
+Start by creating and then including in global scope your JS callback, which
+should take, as an argument, the response object:
+
+```javascript
+function myAwesomeCallback(response) {
+  console.log(response.data.amount_settled);
+}
+```
+
+You will then add `callback="myAwesomeCallback"` as an attribute of your
+`script` tag (note that we are passing it as a function, rather than calling
+it; note also that you can name this callback whatever you want):
+
+```markdown
+<script
+  src="https://checkout.paymentspring.com/js/paymentspring.js"
+  formId="cb7eae32763131ade35f"
+  callback="myAwesomeCallback"
+></script>
+```
+
+The response object we pass into the callback has a `success` boolean attribute
+as well as a `data` attribute, which in turn is a JSON object that matches the
+response from our [charge a
+token](https://paymentspring.com/developers/#charge-a-token) endpoint (see the
+"Sample Responses" tab).
+
+<script>
+function myAwesomeCallback(response) {
+  alert(response.data.amount_settled);
+};
+</script>
+
+See it in action below.
+
+<div class="button-wrapper">
+  <script formId="f345a6b9236fc0f6665f"
+    src="https://checkout.paymentspring.com/js/paymentspring.js"
+    callback="myAwesomeCallback"
+  ></script>
+</div>

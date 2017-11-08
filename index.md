@@ -1,8 +1,10 @@
 ## paymentspring checkout button
 
-The checkout button is the easiest way to start accepting payments on your website with paymentspring.
+The checkout button is the easiest way to start accepting payments on your
+website with paymentspring.
 
-Checkout buttons are configurable (see options below), and multiple checkout buttons can be included on a single web page.
+Checkout buttons are configurable (see options below), and multiple checkout
+buttons can be included on a single web page.
 
 ### Example
 
@@ -29,7 +31,12 @@ static distribution:
 dynamic distribution:
 {% include checkout-buttons/dynamic-distribution.html %}
 
+### Javascript callback
+
+{% include shared-copy/example-js-callback.html type="button" %}
 
 ### Support or Contact
 
-Just getting started with paymentspring, or having a problem? [Contact us](https://paymentspring.com/contact/) or checkout [our docs](https://paymentspring.com/developers/)!
+Just getting started with paymentspring, or having a problem? [Contact
+us](https://paymentspring.com/contact/) or checkout [our
+docs](https://paymentspring.com/developers/)!
