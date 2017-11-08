@@ -10,6 +10,10 @@ function myAwesomeCallback(response) {
 }
 ```
 
+(It's worth noting that this function is globally available, meaning that anyone
+can call it by simply opening the console. Don't use it for anything that needs
+to be very secure, and instead consider a webhook instead).
+
 You will then add `callback="myAwesomeCallback"` as an attribute of your
 `script` tag (note that we are passing it as a function, rather than calling
 it; note also that you can name this callback whatever you want):
