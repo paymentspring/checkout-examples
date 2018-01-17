@@ -24,7 +24,7 @@ styling below, please place this link before other css links.
 
 {% include inline-checkout/inline-script.html %}
 
-### Styling
+### <a name="styling"></a>Styling
 
 One of the cool things about using the inline checkout form is that it is
 completely customizable to fit your site. By including the link to our
